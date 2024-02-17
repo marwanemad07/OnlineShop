@@ -1,0 +1,15 @@
+﻿global using OnlineShop.BLL.DTO;
+global using OnlineShop.BLL.Services.Interfaces;
+global using OnlineShop.DAL.Repositories.Interfaces;
+global using OnlineShop.DAL.Models;
+global using System.ComponentModel.DataAnnotations;
+global using System.IdentityModel.Tokens.Jwt;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.Extensions.Configuration;
+global using System.Security.Claims;
+global using System.Text;
+global using System.Web;
+global using MimeKit;
+global using MailKit.Net.Smtp;
+global using MailKit.Security;
+global using MimeKit.Text;

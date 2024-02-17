@@ -1,0 +1,40 @@
+# Ignore Visual Studio files
+.vs/
+*.vscode/
+*.suo
+*.user
+*.userprefs
+*_i.c
+*_p.c
+*.pidb
+*.log
+*.iobj
+*.dbmdl
+*.pch
+*.ipch
+*.sdf
+*.opensdf
+*.cachefile
+*.ncb
+*.sln.docstates
+
+# Ignore build and publish folders
+bin/
+obj/
+publish/
+
+# Ignore NuGet packages
+*.nuget.props
+*.lock
+packages/
+
+# Ignore user-specific files
+*.DS_Store
+thumbs.db
+desktop.ini
+
+# Ignore secrets and sensitive information
+appsettings.Development.json
+appsettings.Production.json
+appsettings.json
+secrets.json
